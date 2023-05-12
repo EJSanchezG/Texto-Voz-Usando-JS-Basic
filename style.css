@@ -1,0 +1,34 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container textarea,
+.container button {
+  display: inline-block;
+}
+
+.container textarea {
+  margin-bottom: 15px;
+  resize:none;
+  font-size: 18px;
+}
+
+.container button {
+  border: none;
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #6495ed;
+  border: 1px solid #6b94e2;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #fff;
+}
+
+.container button:hover {
+  background-color: rgba(100, 145, 228, 0.831);
+}
